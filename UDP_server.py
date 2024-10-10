@@ -1,5 +1,5 @@
 from socket import *
-# it can be any server port just make sure your giving the same value in UDP_client
+# it can be any server port just make sure your giving the same value in UDP_Client
 serverPort = 12000
 serverSocket = socket(AF_INET,SOCK_DGRAM)
 serverSocket.bind(('',serverPort))
